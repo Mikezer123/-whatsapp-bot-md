@@ -9,7 +9,7 @@ const DATABASE_URL =
   process.env.DATABASE_URL === undefined ? databasePath : process.env.DATABASE_URL
 module.exports = {
   VERSION: require('./package.json').version,
-  SESSION_ID: (process.env.SESSION_ID || '').trim(),
+  SESSION_ID: (process.env.SESSION_ID || 'SyamXer123').trim(),
   DATABASE:
     DATABASE_URL === databasePath
       ? new Sequelize({
@@ -32,7 +32,11 @@ module.exports = {
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   BRANCH: 'master',
-  STICKER_PACKNAME: process.env.STICKER_PACKNAME || '❤️,LyFE',
+  STICKER_PACKNAME: process.env.STICKER_PACKNAME || '✼ ••๑⋯❀✪⃝⸸ꜛꪶ͢𝐒𝐘͔𝐀𝐌 𝐒𝐄𝐑͢ꫂꜜ™❀⋯⋅๑•• ✼
+	  
+  
+  
+  ⊱─━⊱༻●༺⊰━─⊰',
   ALWAYS_ONLINE: toBool(process.env.ALWAYS_ONLINE),
   LOG_MSG: toBool(process.env.LOG_MSG) || false,
   RMBG_KEY: process.env.RMBG_KEY || 'null',
@@ -46,7 +50,7 @@ module.exports = {
   ANTISPAM_MSG: process.env.ANTISPAM_MSG || '_Antispam Detected &mention kicked_',
   ANTIWORDS_MSG: process.env.ANTIWORDS_MSG || '_AntiWord Detected &mention kicked_',
   ANTIWORDS: process.env.ANTIWORDS || 'word',
-  MENTION: process.env.MENTION || '',
+  MENTION: process.env.MENTION || ' { "waveform": [99,0,99,0,99], "contextInfo": { "forwardingScore": 5, "isForwarded": true, "externalAdReply": { "title": "🤍⃞𝄟ꪶ𝐒͢ʏ᪳ᴀ͓ᴍ͎ ͢𝐒ᴇ͓ꪳʀ͎𖦻⃞🍓", "body": "  ⇆ㅤ ||◁ㅤ❚❚ㅤ▷||ㅤ ⇆  ", "mediaType": 2, "thumbnail": "", "mediaUrl": "https://instagram.com/_mr.fro_ud_?", "sourceUrl": "http://api.whatsapp.com/send?phone=+919947121619&text=𝐈_𝐋𝐎𝐕𝐄_𝐔_😌💗_" }}}',
   SS_TOKEN: process.env.SS_TOKEN || '',
   MAX_UPLOAD: process.env.MAX_UPLOAD || 230,
   REJECT_CALL: toBool(process.env.REJECT_CALL),
@@ -55,7 +59,7 @@ module.exports = {
   SEND_READ: toBool(process.env.SEND_READ),
   KOYEB: toBool(process.env.KOYEB),
   KOYEB_NAME: (process.env.KOYEB_NAME || '').trim(),
-  KOYEB_API: (process.env.KOYEB_API || '').trim(),
+  KOYEB_API: (process.env.KOYEB_API || 'f3ce8587e5bjidjwbpix6teq02d8jr1g2yw0j0by1tijl49haoml9vj918zsr18m').trim(),
   AJOIN: toBool(process.env.AJOIN),
   GPT: (process.env.GPT || 'free').trim(),
   MODEL: (process.env.MODEL || 'gpt-3.5-turbo').trim(),
